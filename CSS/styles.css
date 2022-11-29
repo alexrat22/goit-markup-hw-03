@@ -1,0 +1,206 @@
+:root {
+	--main-text-color: #434455;
+	--secondary-text-color: #2e2f42;
+	--helper-text: #8e8f99;
+	--footer-text: #e7e9fc;
+	--background-color: #ffffff;
+	--secondary-background-color: #f4f4fd;
+	--accent-color: #4d5ae5;
+}
+
+body {
+	color: var(--main-text-color);
+	background-color: var(--background-color);
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+ul,
+ol {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+}
+
+/* Header */
+.logo {
+	font-family: "Raleway";
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	color: var(--secondary-text-color);
+	word-spacing: -4px;
+}
+
+.logo-web {
+	color: var(--accent-color);
+}
+
+.nav-list {
+	color: var(--secondary-text-color);
+	font-weight: 700;
+}
+
+.nav-list:hover,
+.nav-list:focus {
+	color: var(--accent-color);
+}
+
+.studio {
+	color: var(--accent-color);
+}
+
+.portfolio {
+	color: var(--accent-color);
+}
+
+.contacts {
+	color: var(--main-text-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+	color: var(--accent-color);
+}
+
+/* Page Studio */
+
+.hero {
+	background-color: var(--secondary-text-color);
+}
+
+.hero-title {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--background-color);
+}
+
+.hero-button {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.19;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.04em;
+	color: var(--background-color);
+	background: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+	color: var(--background-color);
+	background-color: #404bbf;
+	cursor: pointer;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.features-title,
+.employees-name {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	color: var(--secondary-text-color);
+}
+
+.features-text,
+.employees-text,
+.footer-text,
+.portfolio-text {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+
+.employees {
+	background-color: var(--secondary-background-color);
+}
+
+.examples-title,
+.employees-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.1;
+	text-align: center;
+	text-transform: capitalize;
+	color: var(--secondary-text-color);
+}
+
+/* Footer */
+
+footer {
+	color: var(--footer-text);
+	background-color: var(--secondary-text-color);
+}
+
+.logo-footer {
+	font-family: "Raleway";
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	word-spacing: -4px;
+	color: var(--secondary-background-color);
+}
+
+/* Page Portfolio */
+
+.filter-button {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.04em;
+	color: var(--accent-color);
+	background-color: var(--secondary-background-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+	color: var(--background-color);
+	background-color: var(--accent-color);
+	cursor: pointer;
+}
+
+.portfolio-title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	color: var(--secondary-text-color);
+}
