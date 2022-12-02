@@ -67,6 +67,7 @@ a {
 	line-height: 1.33;
 	color: var(--secondary-text-color);
 	word-spacing: -4px;
+	margin-right: 77px;
 }
 
 .logo-web {
@@ -89,7 +90,6 @@ a {
 
 .studio {
 	color: var(--accent-color);
-	margin-left: 77px;
 }
 
 .portfolio {
