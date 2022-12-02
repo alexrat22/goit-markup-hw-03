@@ -56,10 +56,6 @@ a {
 	align-items: center;
 }
 
-/* .container > .nav {
-	display: flex;
-} */
-
 .logo {
 	font-family: "Raleway";
 	font-weight: 800;
@@ -82,6 +78,11 @@ a {
 .nav-list:hover,
 .nav-list:focus {
 	color: var(--accent-color);
+}
+
+.nav-list .item {
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
 
 .nav-list .item:not(:last-child) {
