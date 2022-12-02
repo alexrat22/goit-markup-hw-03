@@ -48,11 +48,17 @@ a {
 }
 
 /* Header */
+.header-nav,
 .main-nav,
 .nav-list,
 .contacts-nav {
 	display: flex;
+	align-items: center;
 }
+
+/* .container > .nav {
+	display: flex;
+} */
 
 .logo {
 	font-family: "Raleway";
@@ -67,14 +73,6 @@ a {
 	color: var(--accent-color);
 }
 
-.nav-list .item:not(:last-child) {
-	margin-right: 40px;
-}
-
-.contacts-nav .item:not(:last-child) {
-	margin-right: 40px;
-}
-
 .nav-list {
 	color: var(--secondary-text-color);
 	font-weight: 700;
@@ -83,6 +81,10 @@ a {
 .nav-list:hover,
 .nav-list:focus {
 	color: var(--accent-color);
+}
+
+.nav-list .item:not(:last-child) {
+	margin-right: 40px;
 }
 
 .studio {
@@ -101,6 +103,14 @@ a {
 .contacts:hover,
 .contacts:focus {
 	color: var(--accent-color);
+}
+
+.contacts-nav {
+	margin-left: 331px;
+}
+
+.contacts-nav .item:not(:last-child) {
+	margin-right: 40px;
 }
 
 /* Page Studio */
