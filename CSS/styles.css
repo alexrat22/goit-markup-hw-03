@@ -43,8 +43,8 @@ a {
 .container {
 	width: 1158px;
 	margin: 0 auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /* Header */
@@ -167,6 +167,14 @@ a {
 	overflow: hidden;
 }
 
+.features-list {
+	display: flex;
+}
+
+.features-item:not(:last-child) {
+	margin-right: 24px;
+}
+
 .features-title,
 .employees-name {
 	font-weight: 700;
@@ -183,6 +191,14 @@ a {
 	letter-spacing: 0.02em;
 }
 
+.examples-list {
+	display: flex;
+}
+
+.examples-item:not(:last-child) {
+	margin-right: 24px;
+}
+
 .employees {
 	background-color: var(--secondary-background-color);
 }
@@ -195,6 +211,14 @@ a {
 	text-align: center;
 	text-transform: capitalize;
 	color: var(--secondary-text-color);
+}
+
+.employees-list {
+	display: flex;
+}
+
+.employees-item:not(:last-child) {
+	margin-right: 24px;
 }
 
 /* Footer */
