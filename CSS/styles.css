@@ -41,13 +41,20 @@ a {
 }
 
 .container {
-	width: 1470px;
+	width: 1158px;
 	margin: 0 auto;
-	padding-left: 15px;
+	padding-top: 120px;
 	padding-right: 15px;
+	padding-bottom: 120px;
+	padding-left: 15px;
 }
 
 /* Header */
+
+.header-nav {
+	padding-top: 0;
+	padding-bottom: 0;
+}
 .header-nav,
 .main-nav,
 .nav-list,
@@ -64,7 +71,6 @@ a {
 	color: var(--secondary-text-color);
 	word-spacing: -4px;
 	margin-right: 77px;
-	margin-left: 156px;
 }
 
 .logo-web {
@@ -90,10 +96,7 @@ a {
 	margin-right: 40px;
 }
 
-.studio {
-	color: var(--accent-color);
-}
-
+.studio,
 .portfolio {
 	color: var(--accent-color);
 }
@@ -113,17 +116,13 @@ a {
 
 .contacts-nav .item:first-child {
 	margin-right: 40px;
-	}
-
-.contacts-nav .item:last-child {
-	margin-right: 156px;
 }
 
 /* Page Studio */
 
 .hero {
 	background-color: var(--secondary-text-color);
-	 margin-bottom: 120px;
+	padding-top: 0;
 }
 
 .hero-title {
@@ -133,10 +132,6 @@ a {
 	line-height: 1.07;
 	letter-spacing: 0.02em;
 	color: var(--background-color);
-	padding-bottom: 48px;
-	padding-top: 192px;
-	
-
 }
 
 .hero-button {
@@ -154,8 +149,6 @@ a {
 	padding: 16px 32px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 192px;
-	
 }
 
 .hero-button:hover,
@@ -180,11 +173,9 @@ a {
 
 .features-list {
 	display: flex;
-	margin-right: 156px;
-	margin-left: 156px;
 }
 
-.features-item{
+.features-item {
 	flex-basis: 282px;
 }
 .features-item:not(:last-child) {
@@ -208,9 +199,8 @@ a {
 	letter-spacing: 0.02em;
 }
 
-.features-main,
 .examples-main {
-	margin-bottom: 120px;
+	padding-top: 0;
 }
 
 .examples-title {
@@ -219,8 +209,6 @@ a {
 
 .examples-list {
 	display: flex;
-	margin-right: 156px;
-	margin-left: 156px;
 }
 
 .examples-item:not(:last-child) {
@@ -232,7 +220,6 @@ a {
 }
 
 .employees-title {
-	padding-top: 120px;
 	margin-bottom: 72px;
 }
 
@@ -246,13 +233,8 @@ a {
 	color: var(--secondary-text-color);
 }
 
-.employees {
-	padding-bottom: 120px;
-}
 .employees-list {
 	display: flex;
-	margin-left: 156px;
-	margin-right: 156px;
 }
 
 .employees-item {
@@ -278,7 +260,7 @@ a {
 
 /* Footer */
 
-footer {
+.footer {
 	color: var(--footer-text);
 	background-color: var(--secondary-text-color);
 	padding-top: 100px;
@@ -292,14 +274,11 @@ footer {
 	line-height: 1.17;
 	word-spacing: -4px;
 	color: var(--secondary-background-color);
-	margin-left: 156px;
 }
 
 .footer-text {
 	width: 264px;
 	margin-top: 16px;
-	margin-left: 156px;
-	/* padding-bottom: 100px; */
 }
 
 /* Page Portfolio */
@@ -329,6 +308,20 @@ footer {
 	font-size: 20px;
 	line-height: 1.2;
 	color: var(--secondary-text-color);
+}
+
+.portfolio-list {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 48px;
+	column-gap: 24px;
+}
+
+.portfolio-buttons {
+	display: flex;
+	justify-content: center;
+	column-gap: 24px;
+	padding-top: 0px;
 }
 
 /* Delete */
