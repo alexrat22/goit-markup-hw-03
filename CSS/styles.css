@@ -124,10 +124,6 @@ a {
 	padding-bottom: 192px;
 	}
 
-.section-hero {
-	padding: 0;
-}
-
 .hero-title {
 	font-weight: 700;
 	font-size: 56px;
@@ -231,10 +227,6 @@ a {
 	background-color: var(--secondary-background-color);
 }
 
-.section-employees {
-	background-color: var(--secondary-background-color);
-}
-
 .employees-title {
 	margin-bottom: 72px;
 }
@@ -249,8 +241,13 @@ a {
 	color: var(--secondary-text-color);
 }
 
+.employees-title{
+	padding-top: 120px;
+}
+
 .employees-list {
 	display: flex;
+	padding-bottom: 120px;
 }
 
 .employees-item {
@@ -278,10 +275,6 @@ a {
 
 .footer {
 	color: var(--footer-text);
-	background-color: var(--secondary-text-color);
-}
-
-.section-footer {
 	background-color: var(--secondary-text-color);
 	padding-top: 100px;
 	padding-bottom: 100px;
