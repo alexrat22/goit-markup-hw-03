@@ -56,12 +56,6 @@ a {
 
 /* Header */
 
-/* .header-nav {
-	padding-top: 0;
-	padding-bottom: 0;
-	border-bottom: #4d5ae5;
-} */
-
 .header-nav,
 .main-nav,
 .nav-list,
@@ -93,30 +87,22 @@ a {
 }
 
 .nav-list {
-	color: var(--secondary-text-color);
 	font-weight: 700;
-}
-
-.nav-list:hover,
-.nav-list:focus {
-	color: var(--accent-color);
 }
 
 .nav-list .item:not(:last-child) {
 	margin-right: 40px;
 }
 
-.studio,
-.portfolio {
-	color: var(--accent-color);
+.nav-notactive,
+.nav-notactive {
+	color: var(--secondary-text-color)
 }
 
-.contacts {
-	color: var(--main-text-color);
-}
-
-.contacts:hover,
-.contacts:focus {
+.nav-active,
+.nav-notactive:hover,
+.nav-notactive:focus
+{
 	color: var(--accent-color);
 }
 
@@ -128,28 +114,29 @@ a {
 	margin-right: 40px;
 }
 
-/* Page Studio */
+/* Page "Studio" */
+
+/* Hero */
 
 .hero {
 	background-color: var(--secondary-text-color);
 	padding-top: 192px;
 	padding-bottom: 192px;
-	padding-right: 474px;
-	padding-left: 474px;
-}
+	}
 
 .section-hero {
 	padding: 0;
 }
 
 .hero-title {
-	font-weight: 500;
+	font-weight: 700;
 	font-size: 56px;
 	text-align: center;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
 	color: var(--background-color);
 	margin: 0 auto 48px auto;
+	width: 496px;
 }
 
 .hero-button {
@@ -167,6 +154,7 @@ a {
 	padding: 16px 32px;
 	margin-left: auto;
 	margin-right: auto;
+	border: none;
 }
 
 .hero-button:hover,
@@ -175,6 +163,8 @@ a {
 	background-color: #404bbf;
 	cursor: pointer;
 }
+
+/* Features */
 
 .visually-hidden {
 	position: absolute;
@@ -194,7 +184,7 @@ a {
 }
 
 .features-item {
-	flex-basis: 282px;
+	width: 264px;
 }
 .features-item:not(:last-child) {
 	margin-right: 24px;
@@ -217,6 +207,8 @@ a {
 	letter-spacing: 0.02em;
 }
 
+/* Work Examples */
+
 .section-examples {
 	padding-top: 0;
 }
@@ -232,6 +224,8 @@ a {
 .examples-item:not(:last-child) {
 	margin-right: 24px;
 }
+
+/* Our Team */
 
 .employees {
 	background-color: var(--secondary-background-color);
@@ -307,7 +301,7 @@ a {
 	margin-top: 16px;
 }
 
-/* Page Portfolio */
+/* Page "Portfolio" */
 
 .filter-button {
 	font-family: inherit;
