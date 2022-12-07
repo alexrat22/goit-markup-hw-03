@@ -96,13 +96,12 @@ a {
 
 .nav-notactive,
 .nav-notactive {
-	color: var(--secondary-text-color)
+	color: var(--secondary-text-color);
 }
 
 .nav-active,
 .nav-notactive:hover,
-.nav-notactive:focus
-{
+.nav-notactive:focus {
 	color: var(--accent-color);
 }
 
@@ -122,7 +121,7 @@ a {
 	background-color: var(--secondary-text-color);
 	padding-top: 192px;
 	padding-bottom: 192px;
-	}
+}
 
 .hero-title {
 	font-weight: 700;
@@ -241,17 +240,14 @@ a {
 	color: var(--secondary-text-color);
 }
 
-.employees-title{
-	padding-top: 120px;
-}
-
 .employees-list {
 	display: flex;
-	padding-bottom: 120px;
 }
 
 .employees-item {
 	background-color: var(--background-color);
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	border-radius: 0px 0px 4px 4px;
 }
 
 .employees-item:not(:last-child) {
@@ -263,18 +259,14 @@ a {
 	text-align: center;
 }
 
-.employees-name {
-	margin: 32px 16px 8px 16px;
-}
-
-.employees-text {
-	margin-bottom: 32px;
+.employees-info {
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 /* Footer */
 
 .footer {
-	color: var(--footer-text);
 	background-color: var(--secondary-text-color);
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -290,6 +282,7 @@ a {
 }
 
 .footer-text {
+	color: var(--footer-text);
 	width: 264px;
 	margin-top: 16px;
 }
@@ -307,6 +300,7 @@ a {
 	letter-spacing: 0.04em;
 	color: var(--accent-color);
 	background-color: var(--secondary-background-color);
+	cursor: pointer;
 	padding: 12px 24px;
 	border: 1px solid #e7e9fc;
 	border-radius: 4px;
@@ -316,17 +310,13 @@ a {
 	display: flex;
 	justify-content: center;
 	column-gap: 24px;
+	margin-bottom: 72px;
 }
+
 .filter-button:hover,
 .filter-button:focus {
 	color: var(--background-color);
 	background-color: var(--accent-color);
-	cursor: pointer;
-}
-
-.portfolio-main {
-	padding-top: 96px;
-	padding-bottom: 72px;
 }
 
 .portfolio-list {
@@ -334,7 +324,6 @@ a {
 	flex-wrap: wrap;
 	row-gap: 48px;
 	column-gap: 24px;
-	padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -342,10 +331,13 @@ a {
 	font-size: 20px;
 	line-height: 1.2;
 	color: var(--secondary-text-color);
-	padding-top: 32px;
-	padding-bottom: 8px;
+	margin-bottom: 8px;
 }
 
-.portfolio-text {
+.portfolio-info {
+	padding-top: 32px;
 	padding-bottom: 32px;
+	padding-left: 16px;
+	border: 0.5px solid #f4f4fd;
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
